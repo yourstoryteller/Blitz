@@ -1,0 +1,307 @@
+body, *, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    color: #474747;
+}
+
+h1,h2,h3,h4,h5,h6, .title, {
+    font-family: "Economica", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 1em;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0.5em 0;
+    line-height: 1.3em;
+    text-align: left;
+
+}
+
+.fixed-width {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.space {
+    margin-bottom: 3rem;
+}
+
+.float-left {
+          width: 72.5%;
+          float: left;
+          margin-right: 5%;
+          }
+
+.float-right {
+          width: 22.5%;
+          float: left;
+          }
+
+.inner-left   {
+          padding: 5px 5px 5px 5px;
+          margin-right: 10px;
+          min-height: 60px;
+          }
+
+.inner-right      {
+          font-size: 11px;
+          padding: 5px 5px 5px 5px;
+          min-height: 60px;
+          }
+
+.clear-floated    { 
+    clear: both; height: 1px; font-size: 1px; line-height: 1px; padding: 0; margin: 0; 
+          }
+
+
+
+/*========================
+  Header
+ =========================*/
+ .page-header {
+    border-top: 5px solid #ebebeb;
+    padding-bottom: 2em;
+    }
+
+.page-header > div {
+        position: relative;
+    }
+
+.page-header .identity {
+        font-family: "Pacifico", cursive;
+        font-size: 3.5em;
+        position: absolute;
+        bottom: 0;
+    }
+
+.page-header nav {
+        float: right;
+        font-family: "Economica", sans-serif;
+        text-transform: uppercase;
+    }
+
+.page-header nav li {
+        color: #bfbfbf;
+        float: left;
+        margin-right: 3rem;
+        padding-top: 3rem;
+    }
+
+.page-header nav li:last-child {
+        margin-right: 0;
+    }
+
+.page-header nav li em {
+        display: block;
+        color: #474747;
+        font-size: 1.6em;
+    }
+
+
+
+/*========================
+  Contact Us
+ =========================*/
+.contact > h2 {
+    font-family: "Economica", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 1em;
+}
+
+ .contact > p {
+    color: #bfbfbf;
+    font-style: italic;
+ }
+
+ .contact:after {
+    content: " ";
+    display: block;
+    height: 5px;
+    background: url(../Images/Pattern.png) left top repeat-x;
+    margin-top: 1.5em;
+
+ }
+
+
+
+ /*========================
+  Form
+ =========================*/
+ .text {
+    background-color: #f4f2f2; 
+    margin-bottom: 1em;
+    border: 0.5px solid #ede1e1;
+    height: 3em;
+    width: 150px;
+    padding: 0.5em 0 0.5em 1em;
+    font-family: "Economica", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+ }
+
+ .message {
+    background-color: #f4f2f2; 
+    margin-bottom: 1em;
+    border: 0.5px solid #ede1e1;
+    padding: 0.5em 0 0.5em 1em;
+    font-family: "Economica", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+ }
+
+.icon > i {
+    float: left;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-right: -1em;
+}
+
+.icon > h3 {
+    float: left;
+    padding-bottom: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Economica", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 1em 1em;
+}
+
+.icon {
+    margin-top: -1em;
+}
+
+
+
+ /*========================
+  Sidebar
+ =========================*/
+.about > h3 {
+    font-family: "Economica", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 1em;
+}
+
+.about > p {
+    font-size: 13px;
+    text-align: justify;
+
+}
+
+ .about-us:after {
+    content: " ";
+    display: block;
+    height: 5px;
+    background: url(../Images/Pattern.png) left top repeat-x;
+    margin-top: 5px;
+
+ }
+
+.category > h3 {
+    font-family: "Economica", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 1em;
+}
+
+.category > ul {
+    font-size: 13px;
+    line-height: 1em;
+}
+
+ .categories:after {
+    content: " ";
+    display: block;
+    height: 5px;
+    background: url(../Images/Pattern.png) left top repeat-x;
+    margin-top: 5px;
+
+ }
+
+.social > h3 {
+    font-family: "Economica", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 1em;
+}
+
+ .social > p {
+    font-size: 13px;
+    line-height: 1em;
+}
+
+ .twitter:after {
+    content: " ";
+    display: block;
+    height: 5px;
+    background: url(../Images/Pattern.png) left top repeat-x;
+    margin-top: 5px;
+
+ }
+
+.link {
+    color: #d2cdd3;
+ }
+
+.time {
+    color: #5b5454;
+}
+
+
+
+/*========================
+  Footer
+ =========================*/
+ .page-footer {
+    color: #9b9b9b;
+    font-size: 1rem;
+    height: 70px;
+}
+
+.page-footer .right {
+    float: left;
+}
+
+.page-footer .credits {
+    float: right;
+}
+
+.page-footer-content {
+    padding: 1.5em 0;
+}
+
